@@ -1,3 +1,4 @@
+
 CREATE DATABASE ECOMMERCE;
 USE ECOMMERCE;
  
@@ -264,5 +265,4 @@ FROM
 JOIN product_variation pv ON p.product_id = pv.product_id
 JOIN size_option so ON pv.size_id = so.size_option_id
 WHERE p.name = 'Bathu 2023';
-
 
